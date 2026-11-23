@@ -1,8 +1,8 @@
 # Sim Record
 
-A public, append-only record of a simulated run, starting at row one. Every row in this
-repository describes what a deterministic check did to a synthetic input. Nothing here is a
-conversation, and nothing here describes a person.
+A public, append-only record of a simulated run, starting at row one. Every row in this repository
+describes what a deterministic check did to a synthetic input. Nothing here is a conversation, and
+nothing here describes a person.
 
 **Prototype. Research and educational use only.** Not for production, commercial deployment, or
 safety-critical environments. All systems described here are experimental and may contain defects.
@@ -14,20 +14,20 @@ modified version under this licence.
 
 ## Read the limits before the numbers
 
-This section is first because the numbers are meaningless without it. Each line below is a claim
-someone might reasonably make about a record like this, and what is actually true of this one.
+This section is first because a verdict means nothing without it. Each line is a claim someone might
+reasonably make about a record like this, and what is actually true of this one.
 
 | Claim | What is true |
 |---|---|
-| "PASS means the answer was correct." | **PASS means no rule fired.** A row can pass because it was checked and verified, or because there was nothing to check. Those are different outcomes and the row records which one it was. |
-| "The gate verified most of what it passed." | At the 121 PASS verdicts measured on 2026-11-22, **116 (95.9%) verified nothing**, because no claims were declared to check. Verification cannot exceed declaration. |
-| "The gate refuses bad answers." | It refuses only what it can prove wrong. Withholding is enabled on **BLOCKED only**, which was **2 rows of 243** production rows. FLAGGED rows are advisory and still shown. |
-| "This is an accuracy rate." | There is **no accuracy rate here.** A 12-case regression benchmark matched expectations on 12 of 12 cases, 6 of them exactly. Two case labels were corrected the same day. Twelve cases is a demonstration, not a rate. |
-| "Three independent parties agreed." | **One custodian holds all three signing keys** in the current research posture. A 2-of-3 quorum here certifies that one principal drove three seat identities over the same bytes. It is never independent agreement. |
-| "The record is complete." | Only a minority of replies carry a verdict at all. Rows that could not be checked say `NOT_CHECKED`. That is a documented gap, not a clean result. |
+| "PASS means the answer was correct." | **PASS means no rule fired.** A row can pass because it was checked and found sound, or because there was nothing in it to check. Those are different outcomes, and every row records which one it was. |
+| "The gate verified most of what it passed." | Verification cannot exceed declaration. A check can only compare figures that were declared, so a row with nothing declared is recorded as nothing to check, never as clean. |
+| "The gate refuses bad answers." | It refuses only what it can prove wrong, and withholding is enabled on **blocked** rows only. Flagged rows are advisory and still shown. A row it cannot evaluate is reported as not checked. |
+| "This is an accuracy rate." | **There is no accuracy rate in this repository.** A small regression suite confirms the rules still behave as expected after a change. That is a demonstration, not a rate, and it is not a measure of correctness. |
+| "The record is complete." | Coverage is partial by design. Rows that could not be checked say `NOT_CHECKED`. A documented gap is not a clean result. |
+| "Something was agreed here." | Nothing in this record is a vote, a quorum, or an approval. It records checks. |
 
-If a later entry contradicts a line in this table, the contradiction is the finding, and the entry
-says which line it supersedes.
+Every figure in this table is restated from this record's own rows as they accumulate, and each is
+recomputable from the rows. No figure here is quoted from another record.
 
 ## What this record will never contain
 

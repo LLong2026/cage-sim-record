@@ -1,0 +1,20 @@
+{
+  "record": "cage-sim-record",
+  "genesis_sha256": "18f9fd17e470f4dc3511bb76de6349ccdb5cad42ccb6e3ae483672d5b7d0b559",
+  "hash_alg": "sha256",
+  "rows": [
+    {
+      "seq": 1,
+      "at": "2026-11-23T02:01:34.931Z",
+      "check": "chain_self_check",
+      "verdict": "INTACT",
+      "rows_verified": 0,
+      "breaks": 0,
+      "duplicates": 0,
+      "gaps": 0,
+      "is_sample": true,
+      "prev_hash": "18f9fd17e470f4dc3511bb76de6349ccdb5cad42ccb6e3ae483672d5b7d0b559",
+      "entry_hash": "18c05f815ca5ff3804bb21ba6ff28c1be6be136f4def4693b0cc216075e8958a"
+    }
+  ]
+}

@@ -28,6 +28,19 @@
       "is_sample": true,
       "prev_hash": "18c05f815ca5ff3804bb21ba6ff28c1be6be136f4def4693b0cc216075e8958a",
       "entry_hash": "a525fb66bc6c532202ddf0bb724fb17e77d3ba85dbf49689b6059b4cd6787954"
+    },
+    {
+      "seq": 3,
+      "at": "2026-11-23T12:17:24.065Z",
+      "check": "chain_self_check",
+      "verdict": "INTACT",
+      "rows_verified": 2,
+      "breaks": 0,
+      "duplicates": 0,
+      "gaps": 0,
+      "is_sample": true,
+      "prev_hash": "a525fb66bc6c532202ddf0bb724fb17e77d3ba85dbf49689b6059b4cd6787954",
+      "entry_hash": "2c70541e366fa23ec042c9d702282b4b9acf4961aab158baf35f688d930a01c7"
     }
   ]
 }

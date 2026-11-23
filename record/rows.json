@@ -15,6 +15,19 @@
       "is_sample": true,
       "prev_hash": "18f9fd17e470f4dc3511bb76de6349ccdb5cad42ccb6e3ae483672d5b7d0b559",
       "entry_hash": "18c05f815ca5ff3804bb21ba6ff28c1be6be136f4def4693b0cc216075e8958a"
+    },
+    {
+      "seq": 2,
+      "at": "2026-11-23T02:32:09.087Z",
+      "check": "chain_self_check",
+      "verdict": "INTACT",
+      "rows_verified": 1,
+      "breaks": 0,
+      "duplicates": 0,
+      "gaps": 0,
+      "is_sample": true,
+      "prev_hash": "18c05f815ca5ff3804bb21ba6ff28c1be6be136f4def4693b0cc216075e8958a",
+      "entry_hash": "a525fb66bc6c532202ddf0bb724fb17e77d3ba85dbf49689b6059b4cd6787954"
     }
   ]
 }
